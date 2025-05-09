@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Game": {
+      "commandName": "Executable",
+      "workingDirectory": "A:/Projects/Flax/NavMeshBug",
+      "executablePath": "G:/FlaxEngine/Binaries/Editor/Win64/Development/FlaxEditor.exe",
+      "commandLineArgs": "-project \"A:/Projects/Flax/NavMeshBug\"",
+      "nativeDebugging": false
+    }
+  }
+}

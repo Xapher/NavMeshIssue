@@ -1,0 +1,317 @@
+[00:00:013] Flax.Build 1.0.0
+[00:00:015]   Arguments: log -mutex -genproject
+[00:00:015]   Workspace: A:\Projects\Flax\NavMeshBug
+[00:00:015]   Engine: G:\FlaxEngine
+[00:00:015]   .NET 9.0.1
+[00:00:023] Loading project file from "A:\Projects\Flax\NavMeshBug\NavMeshBug.flaxproj"...
+[00:00:078] Loading project file from "G:\FlaxEngine\Flax.flaxproj"...
+[00:00:081] Loaded project Flax, version 1.10.6705
+[00:00:081] Loaded project NavMeshBug, version 1.0
+[00:00:120] Engine build version: 1.10.6705
+[00:01:926] Assembler time: 1.778249s
+[00:01:934] Generating project files...
+[00:01:951] Missing Android SDK. Cannot build for Android platform.
+[00:01:952] Missing Linux Toolchain. Cannot build for Linux platform.
+[00:01:958] Found Windows SDK v10_0_22621_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:01:991] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
+[00:01:995] Found Windows toolset v144 at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433
+[00:02:011] Found target GameEditorTarget
+[00:02:011] Found target GameTarget
+[00:02:011] Found target FlaxEditor
+[00:02:011] Found target FlaxGame
+[00:02:012] Found project Flax
+[00:02:047] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
+[00:02:048] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
+[00:02:056] Found the following .NET SDK versions: 9.0.102, 8.0.405, 7.0.410, 5.0.302
+[00:02:057] Found the following .NET runtime versions: 9.0.1, 8.0.12, 7.0.20
+[00:02:061] Using .NET SDK 9.0.102, runtime 9.0.1 (C:\Program Files\dotnet\)
+[00:02:063]   - Host Runtime for Windows x64
+[00:02:063]   - Host Runtime for Windows x86
+[00:02:063]   - Host Runtime for Windows ARM64
+[00:02:076] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:02:079] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:02:080] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:080] Skipping configuration Editor.Windows.Debug for ARM64: Unsupported target architecture
+[00:02:091] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:02:093] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:02:093] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:093] Skipping configuration Editor.Windows.Development for ARM64: Unsupported target architecture
+[00:02:106] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:02:108] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:02:108] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:108] Skipping configuration Editor.Windows.Release for ARM64: Unsupported target architecture
+[00:02:108] Skipping configuration Editor.Linux.Debug for x64: Missing platform SDK
+[00:02:108] Skipping configuration Editor.Linux.Development for x64: Missing platform SDK
+[00:02:108] Skipping configuration Editor.Linux.Release for x64: Missing platform SDK
+[00:02:108] Skipping configuration Editor.Mac.Debug for x64: Missing platform SDK
+[00:02:108] Skipping configuration Editor.Mac.Debug for ARM64: Missing platform SDK
+[00:02:108] Skipping configuration Editor.Mac.Development for x64: Missing platform SDK
+[00:02:108] Skipping configuration Editor.Mac.Development for ARM64: Missing platform SDK
+[00:02:108] Skipping configuration Editor.Mac.Release for x64: Missing platform SDK
+[00:02:108] Skipping configuration Editor.Mac.Release for ARM64: Missing platform SDK
+[00:02:116] Skipping configuration Game.Windows.Debug for x86: Unsupported target architecture
+[00:02:116] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:116] Skipping configuration Game.Windows.Debug for ARM64: Unsupported target architecture
+[00:02:125] Skipping configuration Game.Windows.Development for x86: Unsupported target architecture
+[00:02:125] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:125] Skipping configuration Game.Windows.Development for ARM64: Unsupported target architecture
+[00:02:133] Skipping configuration Game.Windows.Release for x86: Unsupported target architecture
+[00:02:133] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:133] Skipping configuration Game.Windows.Release for ARM64: Unsupported target architecture
+[00:02:133] Skipping configuration Game.Linux.Debug for x64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Linux.Development for x64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Linux.Release for x64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Android.Debug for ARM64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Android.Development for ARM64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Android.Release for ARM64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Mac.Debug for x64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Mac.Debug for ARM64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Mac.Development for x64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Mac.Development for ARM64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Mac.Release for x64: Missing platform SDK
+[00:02:133] Skipping configuration Game.Mac.Release for ARM64: Missing platform SDK
+[00:02:133] Skipping configuration Game.iOS.Debug for ARM64: Missing platform SDK
+[00:02:133] Skipping configuration Game.iOS.Development for ARM64: Missing platform SDK
+[00:02:133] Skipping configuration Game.iOS.Release for ARM64: Missing platform SDK
+[00:02:138] Skipping prebuilt module FlaxEngine
+[00:02:138] Found project NavMeshBug
+[00:02:479] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:481] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:02:481] Stack trace:
+[00:02:490]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:02:549] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:549] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:02:549] Stack trace:
+[00:02:550]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:02:627] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:627] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:02:627] Stack trace:
+[00:02:627]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:02:657] Skipping configuration Editor.Linux.Debug for x64: Missing platform SDK
+[00:02:657] Skipping configuration Editor.Linux.Development for x64: Missing platform SDK
+[00:02:657] Skipping configuration Editor.Linux.Release for x64: Missing platform SDK
+[00:02:657] Skipping configuration Editor.Mac.Debug for x64: Missing platform SDK
+[00:02:657] Skipping configuration Editor.Mac.Debug for ARM64: Missing platform SDK
+[00:02:657] Skipping configuration Editor.Mac.Development for x64: Missing platform SDK
+[00:02:657] Skipping configuration Editor.Mac.Development for ARM64: Missing platform SDK
+[00:02:657] Skipping configuration Editor.Mac.Release for x64: Missing platform SDK
+[00:02:657] Skipping configuration Editor.Mac.Release for ARM64: Missing platform SDK
+[00:02:715] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:715] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:02:715] Stack trace:
+[00:02:716]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:02:821] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:821] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:02:821] Stack trace:
+[00:02:821]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:02:889] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:02:889] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:02:889] Stack trace:
+[00:02:889]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:02:913] Skipping configuration Game.Linux.Debug for x64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Linux.Development for x64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Linux.Release for x64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Android.Debug for ARM64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Android.Development for ARM64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Android.Release for ARM64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Mac.Debug for x64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Mac.Debug for ARM64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Mac.Development for x64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Mac.Development for ARM64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Mac.Release for x64: Missing platform SDK
+[00:02:913] Skipping configuration Game.Mac.Release for ARM64: Missing platform SDK
+[00:02:913] Skipping configuration Game.iOS.Debug for ARM64: Missing platform SDK
+[00:02:913] Skipping configuration Game.iOS.Development for ARM64: Missing platform SDK
+[00:02:913] Skipping configuration Game.iOS.Release for ARM64: Missing platform SDK
+[00:02:924] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:02:942] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:02:969] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:02:990] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:007] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:027] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:046] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:089] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:116] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:139] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:159] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:187] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:233] Project Game -> A:\Projects\Flax\NavMeshBug\Source\Game.csproj
+[00:03:252] Saved file to A:\Projects\Flax\NavMeshBug\Source\Game.csproj
+[00:03:253] Project BuildScripts -> A:\Projects\Flax\NavMeshBug\Cache\Projects\BuildScripts.csproj
+[00:03:261] Saved file to A:\Projects\Flax\NavMeshBug\Cache\Projects\BuildScripts.csproj
+[00:03:261] Solution -> A:\Projects\Flax\NavMeshBug\NavMeshBug.sln
+[00:03:281] Saved file to A:\Projects\Flax\NavMeshBug\NavMeshBug.sln
+[00:03:294] Saved file to A:\Projects\Flax\NavMeshBug\NavMeshBug.sln.DotSettings.user
+[00:03:297] Saved file to A:\Projects\Flax\NavMeshBug\Cache\Projects\Flax.Build.CSharp.SkipBuild.targets
+[00:03:302] Saved file to A:\Projects\Flax\NavMeshBug\Cache\Projects\Flax.Build.CSharp.targets
+[00:03:302] Found target GameEditorTarget
+[00:03:302] Found target GameTarget
+[00:03:302] Found target FlaxEditor
+[00:03:302] Found target FlaxGame
+[00:03:302] Found project Flax
+[00:03:311] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:314] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:314] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:314] Skipping configuration Editor.Windows.Debug for ARM64: Unsupported target architecture
+[00:03:325] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:327] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:327] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:327] Skipping configuration Editor.Windows.Development for ARM64: Unsupported target architecture
+[00:03:338] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:340] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:340] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:340] Skipping configuration Editor.Windows.Release for ARM64: Unsupported target architecture
+[00:03:340] Skipping configuration Editor.Linux.Debug for x64: Missing platform SDK
+[00:03:340] Skipping configuration Editor.Linux.Development for x64: Missing platform SDK
+[00:03:340] Skipping configuration Editor.Linux.Release for x64: Missing platform SDK
+[00:03:340] Skipping configuration Editor.Mac.Debug for x64: Missing platform SDK
+[00:03:340] Skipping configuration Editor.Mac.Debug for ARM64: Missing platform SDK
+[00:03:340] Skipping configuration Editor.Mac.Development for x64: Missing platform SDK
+[00:03:340] Skipping configuration Editor.Mac.Development for ARM64: Missing platform SDK
+[00:03:340] Skipping configuration Editor.Mac.Release for x64: Missing platform SDK
+[00:03:340] Skipping configuration Editor.Mac.Release for ARM64: Missing platform SDK
+[00:03:349] Skipping configuration Game.Windows.Debug for x86: Unsupported target architecture
+[00:03:349] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:349] Skipping configuration Game.Windows.Debug for ARM64: Unsupported target architecture
+[00:03:358] Skipping configuration Game.Windows.Development for x86: Unsupported target architecture
+[00:03:358] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:358] Skipping configuration Game.Windows.Development for ARM64: Unsupported target architecture
+[00:03:366] Skipping configuration Game.Windows.Release for x86: Unsupported target architecture
+[00:03:366] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:366] Skipping configuration Game.Windows.Release for ARM64: Unsupported target architecture
+[00:03:366] Skipping configuration Game.Linux.Debug for x64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Linux.Development for x64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Linux.Release for x64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Android.Debug for ARM64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Android.Development for ARM64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Android.Release for ARM64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Mac.Debug for x64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Mac.Debug for ARM64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Mac.Development for x64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Mac.Development for ARM64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Mac.Release for x64: Missing platform SDK
+[00:03:366] Skipping configuration Game.Mac.Release for ARM64: Missing platform SDK
+[00:03:366] Skipping configuration Game.iOS.Debug for ARM64: Missing platform SDK
+[00:03:366] Skipping configuration Game.iOS.Development for ARM64: Missing platform SDK
+[00:03:366] Skipping configuration Game.iOS.Release for ARM64: Missing platform SDK
+[00:03:366] Skipping prebuilt module FlaxEngine
+[00:03:366] Found project NavMeshBug
+[00:03:378] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:378] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:03:378] Stack trace:
+[00:03:378]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:03:412] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:412] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:03:412] Stack trace:
+[00:03:413]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:03:437] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:437] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:03:437] Stack trace:
+[00:03:437]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:03:450] Skipping configuration Editor.Linux.Debug for x64: Missing platform SDK
+[00:03:450] Skipping configuration Editor.Linux.Development for x64: Missing platform SDK
+[00:03:450] Skipping configuration Editor.Linux.Release for x64: Missing platform SDK
+[00:03:450] Skipping configuration Editor.Mac.Debug for x64: Missing platform SDK
+[00:03:450] Skipping configuration Editor.Mac.Debug for ARM64: Missing platform SDK
+[00:03:450] Skipping configuration Editor.Mac.Development for x64: Missing platform SDK
+[00:03:450] Skipping configuration Editor.Mac.Development for ARM64: Missing platform SDK
+[00:03:450] Skipping configuration Editor.Mac.Release for x64: Missing platform SDK
+[00:03:450] Skipping configuration Editor.Mac.Release for ARM64: Missing platform SDK
+[00:03:472] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:472] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:03:472] Stack trace:
+[00:03:472]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:03:505] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:505] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:03:505] Stack trace:
+[00:03:505]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:03:550] No x64 host compiler toolchain found in C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe or C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\arm64\cl.exe
+[00:03:550] Exception: No x64 host compiler tools found for target architecture ARM64
+[00:03:550] Stack trace:
+[00:03:550]    at Flax.Build.Platforms.WindowsToolchainBase..ctor(WindowsPlatformBase platform, TargetArchitecture architecture, WindowsPlatformToolset toolsetVer, WindowsPlatformSDK sdkVer) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchainBase.cs:line 140
+   at Flax.Build.Platforms.WindowsToolchain..ctor(WindowsPlatform platform, TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsToolchain.cs:line 38
+   at Flax.Build.Platforms.WindowsPlatform.CreateToolchain(TargetArchitecture architecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Platforms\Windows\WindowsPlatform.cs:line 53
+   at Flax.Build.Platform.GetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 285
+   at Flax.Build.Platform.TryGetToolchain(TargetArchitecture targetArchitecture) in C:\Users\Wojtek\Flax\FlaxEngine\Source\Tools\Flax.Build\Build\Platform.cs:line 258
+[00:03:560] Skipping configuration Game.Linux.Debug for x64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Linux.Development for x64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Linux.Release for x64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Android.Debug for ARM64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Android.Development for ARM64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Android.Release for ARM64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Mac.Debug for x64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Mac.Debug for ARM64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Mac.Development for x64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Mac.Development for ARM64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Mac.Release for x64: Missing platform SDK
+[00:03:560] Skipping configuration Game.Mac.Release for ARM64: Missing platform SDK
+[00:03:560] Skipping configuration Game.iOS.Debug for ARM64: Missing platform SDK
+[00:03:560] Skipping configuration Game.iOS.Development for ARM64: Missing platform SDK
+[00:03:560] Skipping configuration Game.iOS.Release for ARM64: Missing platform SDK
+[00:03:573] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:588] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:612] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:634] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:674] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:693] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:712] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:739] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:757] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:787] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:809] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:831] Using Dotnet runtime versions range 9-9 for Game Cooker
+[00:03:840] Project Game -> A:\Projects\Flax\NavMeshBug\Source\Game.csproj
+[00:03:843] Skipped saving file to A:\Projects\Flax\NavMeshBug\Source\Game.csproj
+[00:03:843] Project BuildScripts -> A:\Projects\Flax\NavMeshBug\Cache\Projects\BuildScripts.csproj
+[00:03:844] Skipped saving file to A:\Projects\Flax\NavMeshBug\Cache\Projects\BuildScripts.csproj
+[00:03:844] Solution -> A:\Projects\Flax\NavMeshBug\NavMeshBug.sln
+[00:03:847] Skipped saving file to A:\Projects\Flax\NavMeshBug\NavMeshBug.sln
+[00:03:854] Skipped saving file to A:\Projects\Flax\NavMeshBug\NavMeshBug.sln.DotSettings.user
+[00:03:855] Skipped saving file to A:\Projects\Flax\NavMeshBug\Cache\Projects\Flax.Build.CSharp.SkipBuild.targets
+[00:03:855] Skipped saving file to A:\Projects\Flax\NavMeshBug\Cache\Projects\Flax.Build.CSharp.targets
+[00:03:856] Total time: 00:00:03.8676502
+[00:03:856] End.
